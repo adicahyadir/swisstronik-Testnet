@@ -1,0 +1,37 @@
+Transaction Receipt:  TransactionResponse {
+  provider: HardhatEthersProvider {
+    _hardhatProvider: LazyInitializationProviderAdapter {
+      _providerFactory: [AsyncFunction (anonymous)],
+      _emitter: [EventEmitter],
+      _initializingPromise: [Promise],
+      provider: [BackwardsCompatibilityProviderAdapter]
+    },
+    _networkName: 'swisstronik',
+    _blockListeners: [],
+    _transactionHashListeners: Map(0) {},
+    _eventListeners: [],
+    _latestBlockNumberPolled: 6365589,
+    _isHardhatNetworkCached: false,
+    _transactionHashPollingTimeout: undefined,
+    _blockPollingTimeout: undefined
+  },
+  blockNumber: null,
+  blockHash: null,
+  index: undefined,
+  hash: '0x0a8cda0a830bfd317ea5de681d272fabf06339d59ff5e1a6b320e33d658cb316',
+  type: 2,
+  to: '0xf84Df872D385997aBc28E3f07A2E3cd707c9698a',
+  from: '0xc3F577DB4DA553F7E5477f9Eb11A7EAbCF7679a7',
+  nonce: 2,
+  gasLimit: 33507n,
+  gasPrice: 8n,
+  maxPriorityFeePerGas: 1n,
+  maxFeePerGas: 8n,
+  maxFeePerBlobGas: null,
+  data: '0x891b271f32e9f1b4a1e02c494da2e97ed3b8d2ff628b50b9f21ad2c7e1a13937ce5385f9a34c0b1270636893111b5c828c09624bbe4ce8966d2aab99126d864c3d7ef62332502f6294e4ff4d57b340da3483bb7a57db65f5d5c46330596c094e537da9ee93492bb4936359804a932b786acb632ec0ecb88536bff25b852d5bd501041ff8c1f0f7cb19966aee3013efe59d9909c50c4cf86d88b8128b84ab67ead74233294df987e0e7f9504b466005972d9e77',
+  value: 0n,
+  chainId: 1291n,
+  signature: Signature { r: "0xc9a43803d3bc9e4dabccc5360b74ce4fce642df559adb33f4d4e0d248034bc2e", s: "0x07bd70aafc85b484dcef0b45166628b411518746cffe21e20dc4ad548ef0d22a", yParity: 0, networkV: null },
+  accessList: [],
+  blobVersionedHashes: null
+}

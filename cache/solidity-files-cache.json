@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "Z:\\#Cryptocurrency\\Testnet_Swisstronik\\contracts\\Hello_swtr.sol": {
+      "lastModificationDate": 1721811633066,
+      "contentHash": "69aa5e6b65e7a135be0cd892dc00c68b",
+      "sourceName": "contracts/Hello_swtr.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Swisstronik"
+      ]
+    }
+  }
+}
